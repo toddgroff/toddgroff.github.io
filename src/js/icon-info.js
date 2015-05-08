@@ -11,7 +11,6 @@ app.showInfo = function () {
   function checkSize() {
     console.log($('.contact-button'));
     if ($('.contact-button').css('visbility') === 'visible') {
-    // if ($('.portfolio').css('width') == '100%' ) {
       $('.grid-item').attr('href', 'javascript:void(0)');
     }
   }

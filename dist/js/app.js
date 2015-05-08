@@ -14,7 +14,6 @@ app.showInfo = function () {
   function checkSize() {
     console.log($('.contact-button'));
     if ($('.contact-button').css('visbility') === 'visible') {
-    // if ($('.portfolio').css('width') == '100%' ) {
       $('.grid-item').attr('href', 'javascript:void(0)');
     }
   }
@@ -43,12 +42,12 @@ app.showInfo = function () {
     // }
   // });
 
-app.showInitialPage = function () {
-  document.body.insertAdjacentHTML(
-    'beforeend',
-    '<h2>TODO: Remove example.js</h2>' +
-    '<p>And change init.js to do whatevz you need</p>');
-};
+// app.showInitialPage = function () {
+//   document.body.insertAdjacentHTML(
+//     'beforeend',
+//     '<h2>TODO: Remove example.js</h2>' +
+//     '<p>And change init.js to do whatevz you need</p>');
+// };
 
 app.smoothScroll = function (jQuery) {
   jQuery.mark = {
