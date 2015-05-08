@@ -1,1 +1,3 @@
-app.showInitialPage();
+app.showInfo();
+
+app.smoothScroll();
