@@ -17,30 +17,7 @@ app.showInfo = function () {
       $('.grid-item').attr('href', 'javascript:void(0)');
     }
   }
-}
-
-
-  //
-  // if ($(info).is(':focus')) {
-  //   $('.icon-info-1').on('click', function (e) {
-  //     e.preventDefault();
-  //     alert('focused');
-  //     $(info).focusout();
-  //     alert('blurred');
-  //   }
-  // } else {
-  //   $('.icon-info-1').on('click', function (e) {
-  //     e.preventDefault();
-  //   });
-  // }
-
-// }
-
-
-    // } else {
-    //   $(info).focus();
-    // }
-  // });
+};
 
 // app.showInitialPage = function () {
 //   document.body.insertAdjacentHTML(

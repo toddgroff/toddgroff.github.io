@@ -255,7 +255,7 @@ a {
 .portfolio {
   width: 950px;
   min-height: 500px;
-  margin: 4em 0 3.25em 0;
+  margin: 2em 0;
   line-height: 1.4em;
   background: lightgray;
   position: relative;
@@ -434,6 +434,11 @@ a {
     background: url("../img/flowerpatch_presentation.png");
     background-size: cover;
     background-position-x: 40%;
+  }
+
+  .nasa-flickr {
+    background: url("../img/nasa-flickr.png");
+    background-size: cover;
   }
 
   .overlay {
